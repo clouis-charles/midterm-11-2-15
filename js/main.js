@@ -11,15 +11,15 @@ drawPig();
 function drawPig() {
 
 // left ear 
-    
-    
+    fill(253, 215, 228);
+    stroke(0, 0, 0);
+//  bezier(85, 40, 80, 10, 10, 10, 15, 60);
+    bezier(windowWidth/2-190, windowHeight/2-10, windowWidth/2-400, windowHeight/2-100, windowWidth/2-300, windowHeight/2-300, windowWidth/2-150, windowHeight/2-180);
     
     
     
 //right ear 
-    
-    
-    
+    bezier(windowWidth/2+190, windowHeight/2-10, windowWidth/2+400, windowHeight/2-100, windowWidth/2+300, windowHeight/2-300, windowWidth/2+150, windowHeight/2-180);
     
     
     
