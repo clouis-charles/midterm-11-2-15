@@ -1,3 +1,8 @@
+// Global Variables  
+var upTriangle;
+var downTriangle; 
+
+
 function setup() {
     createCanvas(windowWidth,windowHeight); 
     
@@ -41,6 +46,8 @@ function setup() {
 
 function drawPattern() {
 
+    //uptriangle 
+    
   
 
 
